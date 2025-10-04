@@ -1,4 +1,4 @@
-package Week02;
+package BLM.Week02;
 
 public class Example01 {
     static void writeNumber(int n){

@@ -1,4 +1,4 @@
-package Week02;
+package BLM.Week02;
 
 public class Employee {
     String name;

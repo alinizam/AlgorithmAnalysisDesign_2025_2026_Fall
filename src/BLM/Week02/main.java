@@ -1,4 +1,4 @@
-package Week02;
+package BLM.Week02;
 
 import java.util.ArrayList;
 
