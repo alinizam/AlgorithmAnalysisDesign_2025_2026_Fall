@@ -15,16 +15,13 @@ public class Example03MergeSort {
         if (arr.length <= 1) {
             return arr;
         }
-
         int mid = arr.length / 2;
         double[] leftHalf = Arrays.copyOfRange(arr, 0, mid);
-
         double[] rightHalf = Arrays.copyOfRange(arr, mid, arr.length);
 
         double[] sortedLeft = mergeSort(leftHalf);
-        System.out.println(Arrays.toString(sortedLeft));
         double[] sortedRight = mergeSort(rightHalf);
-        System.out.println(Arrays.toString(sortedRight));
+
         return merge(sortedLeft, sortedRight);
     }
 

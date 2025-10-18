@@ -1,7 +1,5 @@
 package SEN.Week04;
 
-
-
 public class Example02_2 {
     public static int sumofArray(int[] array, int left, int right) {
             // Base case: one element
